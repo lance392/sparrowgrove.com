@@ -1,0 +1,140 @@
+/* 
+    Document   : style
+    Created on : July 12, 2012, 9:24:48 PM
+    Author     : Christopher DS
+    Description: Style Sheet
+*/
+
+body {
+font: normal 8pt/13pt verdana, arial,sans-serif;
+color: black;
+margin: 5px;
+padding: 5px;
+background-color:grey;
+}
+
+/*Home Page: home.php */
+#wrapper {
+width: 1000px;
+margin: 0 auto;
+text-align: left;
+background-color: black;/*#999*/
+/*box-shadow: 10px 10px 5px #888888;*/
+border:5px solid #FF9933;
+}
+#adspace {
+width: 1000px;
+height: 110px;
+background-color: activeborder;
+text-align: center;
+}
+#ipspace
+{
+ color: whitesmoke;
+}
+
+#header {
+width: 980px;
+height: 94px;
+background-color: #ccc; /*#ccc*/
+font-weight: bold;
+font-size: 8pt;
+padding-top: 6px;
+padding-left: 20px;
+}
+
+#menu {
+width: 990px;
+height: 20px;
+margin-top: 17px;
+float: left;
+text-align: center;
+background-color: whitesmoke;
+font-size: large;
+padding: 5px;
+}
+a{text-decoration: none; color: black;}
+
+#content {
+    background-color: green;
+    width: 630px;
+    height: 100%;
+    padding: 2px 1px 0px 1px;
+    text-align: left;
+}
+
+#sidebar {
+    background: #999;
+    float: right;
+    width: 200px;
+    height: 800px;
+    margin: 12px 10px 0 4px;
+    padding: 0px 5px 0px 0px;
+    text-align: right;
+    -moz-border-radius:5px; /* 5px Rounded Borders */
+    -webkit-border-radius:5px; /* 5px Rounded Borders */
+}
+/*Control Pannel Text on #Sidebar */
+#ctrl_pnnl {text-decoration: underline; text-indent: 2%; text-align: center;}
+/*AD Space Under Control Pannel*/
+#adspace2 {text-align: center; text-indent: 2%;}
+
+
+#content {
+    background: lightblue; /*DEFAULT #999  blueviolet */
+    float: left;
+    width: 760px;
+    height: 800px;
+    margin: 12px 0px 0px 10px;
+    padding: 0px 5px 0px 0px;
+    text-align: center;
+    opacity:0.7;
+    filter:alpha(opacity=80); /* FIXES: IE8 and earlier */
+    -moz-border-radius:5px; /* 5px Rounded Borders */
+    -webkit-border-radius:5px; /* 5px Rounded Borders */
+}
+#bottom {
+color: #ccc;
+background: #999;
+clear: both;
+width: 600px;
+height: 35px;
+padding-left: 30px;
+padding-top: 10px;
+background: url(images/bottom.png) no-repeat;
+}
+
+#bottom a, #bottom a:visited{
+color: #ccc;
+}
+
+#bottom a:hover {
+color: #808080;
+}
+
+
+#profilepic
+{
+width: 60px;
+heigth:60px;
+}
+
+/* Home Page: /index.php */
+div.container {height: 300px; /*DEFAULT: 295px */ width: 588px; border: 1px solid whitesmoke; background:green;}
+div.title {margin-top: 5%; margin-left: 6%; height: 20px; /*DEFAULT: 295px */ width: 500px; border: 1px solid whitesmoke;}
+
+/* JC-SERP */
+table#menu {height:100px; width:200px; border:1px solid grey; color:black; padding-left: 5px;}
+ #id {width:20px; height:10px;}
+ #date {width:200px; height:10px;}
+ #time {width:70px; height:10px;}
+ #type {width:70px; height:10px;}
+ #level {width:70px; height:10px;}
+ #appeal {width:70px; height:10px;}
+ #desc {width:70px; height:10px; overflow:auto;}
+ #result {width:70px; height:10px;}
+ 
+td1 {width:20px;/*200px;*/ height:5px;}
+td2{width:50px; height:5px; font-size:14px;}
+span#center {text-align:center;}
+tr#grey{ background-color:grey;}
