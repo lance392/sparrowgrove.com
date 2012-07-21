@@ -11,7 +11,7 @@
  *    LANGUAGE: PHP Hypertext Processor (PHP)
  * DESCRIPTION: This page checks if the server is operational and if it is the script passes handling to dynamic_pages.php
  *     LICENSE: Please Read Included License File. If One Was Not Provided E-Mail Author For A Copy.
- *   COPYRIGHT: ©Copyright 2012 - All Rights Reserved   
+ *   COPYRIGHT: Â©Copyright 2012 - All Rights Reserved   
  *      
  */
 
